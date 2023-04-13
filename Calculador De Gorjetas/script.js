@@ -8,6 +8,7 @@ if (bill =='' | ServiceQuality== 0 ){
     alert("Por Favor, preencha os valores")
     return;
 }
+    // checa o numero de pessoas digitadas
 if(numOfPeople== "" | numOfPeople <=1){
     numOfPeople=1;
     document.getElementById('each').style.display="none";
